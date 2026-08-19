@@ -107,18 +107,17 @@ I enjoy exploring new technologies, solving technical challenges, and continuous
 <br>
 
 <!-- ===================================================== -->
-<!--                    GITHUB ACTIVITY                    -->
+<!--                     CURRENT FOCUS                     -->
 <!-- ===================================================== -->
 
-## ⚡ GitHub Activity
+## 🚀 Current Focus
 
-<p align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=dgcmaduranga&bg_color=020617&color=38BDF8&line=2563EB&point=22D3EE&area=true&area_color=082F49&hide_border=true&custom_title=Charith%20Gamage%27s%20Contribution%20Graph"
-     width="100%"
-     alt="Charith Gamage GitHub Activity Graph"/>
-
-</p>
+- 💻 Building modern and responsive full-stack web applications
+- 📱 Developing cross-platform mobile applications
+- 🤖 Exploring AI/ML-based software solutions
+- ⚙️ Strengthening systems engineering knowledge
+- 🧩 Improving software architecture and problem-solving skills
+- 📚 Continuously learning modern tools, technologies, and development practices
 
 <br>
 
@@ -133,41 +132,6 @@ I enjoy exploring new technologies, solving technical challenges, and continuous
 <img src="assets/dev-animation.svg"
      width="100%"
      alt="Charith Gamage Developer Workflow"/>
-
-</p>
-
-<br>
-
-<!-- ===================================================== -->
-<!--                     GITHUB STATS                      -->
-<!-- ===================================================== -->
-
-## 📊 GitHub Stats
-
-<p align="center">
-
-<img width="49%"
-     src="https://github-readme-stats.vercel.app/api?username=dgcmaduranga&show_icons=true&hide_border=true&bg_color=020617&title_color=38BDF8&text_color=CBD5E1&icon_color=22D3EE&ring_color=2563EB"
-     alt="Charith Gamage GitHub Stats"/>
-
-<img width="49%"
-     src="https://github-readme-stats.vercel.app/api/top-langs/?username=dgcmaduranga&layout=compact&hide_border=true&bg_color=020617&title_color=38BDF8&text_color=CBD5E1"
-     alt="Most Used Languages"/>
-
-</p>
-
-<br>
-
-<!-- ===================================================== -->
-<!--                     CODING STREAK                     -->
-<!-- ===================================================== -->
-
-## 🔥 Coding Streak
-
-<p align="center">
-
-<img src="https://streak-stats.demolab.com?user=dgcmaduranga&hide_border=true&background=020617&ring=38BDF8&fire=22D3EE&currStreakLabel=38BDF8&sideLabels=CBD5E1&dates=64748B&currStreakNum=F8FAFC&sideNums=F8FAFC"
-     alt="Charith Gamage GitHub Streak"/>
 
 </p>
 
