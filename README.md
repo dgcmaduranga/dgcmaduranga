@@ -78,16 +78,15 @@ I enjoy exploring new technologies, solving technical problems, and continuously
 ---
 
 ## ⚡ GitHub Activity
+---
+
+## 💻 Developer Workflow
 
 <p align="center">
-  <img
-    src="https://github-readme-activity-graph.vercel.app/graph?username=dgcmaduranga&bg_color=020617&color=38BDF8&line=2563EB&point=22D3EE&area=true&area_color=082F49&hide_border=true&custom_title=Charith%20Gamage's%20Contribution%20Graph"
-    width="100%"
-    alt="GitHub Activity Graph"
-  />
+  <img src="assets/dev-animation.svg"
+       width="100%"
+       alt="Charith Gamage Developer Workflow"/>
 </p>
-
----
 
 ## 📊 GitHub Stats
 
