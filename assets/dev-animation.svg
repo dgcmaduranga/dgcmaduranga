@@ -1,0 +1,459 @@
+<svg width="1000" height="260" viewBox="0 0 1000 260"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+
+    <linearGradient id="bg" x1="0" y1="0" x2="1000" y2="260">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="50%" stop-color="#07152F"/>
+      <stop offset="100%" stop-color="#082F49"/>
+    </linearGradient>
+
+    <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#071426"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+
+    <linearGradient id="flow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2563EB"/>
+      <stop offset="50%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#22D3EE"/>
+    </linearGradient>
+
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <style>
+      .title {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        fill: #F8FAFC;
+        letter-spacing: 2px;
+      }
+
+      .code {
+        font-family: "Courier New", monospace;
+        font-size: 12px;
+      }
+
+      .label {
+        font-family: "Courier New", monospace;
+        font-size: 11px;
+        font-weight: 700;
+        fill: #94A3B8;
+        letter-spacing: 1px;
+      }
+
+      .status {
+        font-family: "Courier New", monospace;
+        font-size: 13px;
+        font-weight: 700;
+        fill: #38BDF8;
+      }
+    </style>
+
+  </defs>
+
+
+  <!-- BACKGROUND -->
+
+  <rect width="1000"
+        height="260"
+        rx="18"
+        fill="url(#bg)"/>
+
+
+  <!-- BACKGROUND GLOWS -->
+
+  <circle cx="60"
+          cy="40"
+          r="100"
+          fill="#2563EB"
+          opacity="0.08">
+
+    <animate attributeName="opacity"
+             values="0.05;0.12;0.05"
+             dur="5s"
+             repeatCount="indefinite"/>
+
+  </circle>
+
+  <circle cx="950"
+          cy="220"
+          r="130"
+          fill="#06B6D4"
+          opacity="0.07">
+
+    <animate attributeName="opacity"
+             values="0.04;0.11;0.04"
+             dur="6s"
+             repeatCount="indefinite"/>
+
+  </circle>
+
+
+  <!-- TOP BAR -->
+
+  <circle cx="30" cy="25" r="4" fill="#38BDF8"/>
+  <circle cx="45" cy="25" r="4" fill="#2563EB"/>
+  <circle cx="60" cy="25" r="4" fill="#22D3EE"/>
+
+  <text x="80"
+        y="30"
+        class="label">
+    DEVELOPER WORKFLOW // LIVE
+  </text>
+
+
+  <!-- ============================================ -->
+  <!-- LEFT: CODE TERMINAL -->
+  <!-- ============================================ -->
+
+  <rect x="55"
+        y="55"
+        width="410"
+        height="145"
+        rx="10"
+        fill="url(#screen)"
+        stroke="#1E3A5F"
+        stroke-width="1"/>
+
+  <!-- TERMINAL HEADER -->
+
+  <circle cx="75" cy="73" r="3.5" fill="#EF4444"/>
+  <circle cx="88" cy="73" r="3.5" fill="#F59E0B"/>
+  <circle cx="101" cy="73" r="3.5" fill="#22C55E"/>
+
+  <text x="120"
+        y="77"
+        class="label"
+        font-size="9">
+    charith@developer ~ /workspace
+  </text>
+
+
+  <!-- CODE LINE 1 -->
+
+  <text x="78"
+        y="105"
+        class="code"
+        fill="#38BDF8">
+
+    const developer = {
+
+    <animate attributeName="opacity"
+             values="0;1;1"
+             keyTimes="0;0.08;1"
+             dur="6s"
+             repeatCount="indefinite"/>
+
+  </text>
+
+
+  <!-- CODE LINE 2 -->
+
+  <text x="98"
+        y="125"
+        class="code"
+        fill="#CBD5E1">
+
+    skills: ["Web", "Mobile", "AI/ML"],
+
+    <animate attributeName="opacity"
+             values="0;0;1;1"
+             keyTimes="0;0.15;0.25;1"
+             dur="6s"
+             repeatCount="indefinite"/>
+
+  </text>
+
+
+  <!-- CODE LINE 3 -->
+
+  <text x="98"
+        y="145"
+        class="code"
+        fill="#CBD5E1">
+
+    mindset: "keep building",
+
+    <animate attributeName="opacity"
+             values="0;0;1;1"
+             keyTimes="0;0.30;0.40;1"
+             dur="6s"
+             repeatCount="indefinite"/>
+
+  </text>
+
+
+  <!-- CODE LINE 4 -->
+
+  <text x="78"
+        y="165"
+        class="code"
+        fill="#38BDF8">
+
+    };
+
+    <animate attributeName="opacity"
+             values="0;0;1;1"
+             keyTimes="0;0.45;0.55;1"
+             dur="6s"
+             repeatCount="indefinite"/>
+
+  </text>
+
+
+  <!-- TERMINAL COMMAND -->
+
+  <text x="78"
+        y="188"
+        class="code"
+        fill="#22D3EE">
+
+    $ build --production
+
+    <animate attributeName="opacity"
+             values="0;0;1;1;0.6;1"
+             keyTimes="0;0.60;0.70;0.80;0.90;1"
+             dur="6s"
+             repeatCount="indefinite"/>
+
+  </text>
+
+
+  <!-- CURSOR -->
+
+  <rect x="225"
+        y="177"
+        width="7"
+        height="13"
+        fill="#22D3EE">
+
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="0.7s"
+             repeatCount="indefinite"/>
+
+  </rect>
+
+
+  <!-- LAPTOP BASE -->
+
+  <path d="M35 205 H485 L510 220 H10 Z"
+        fill="#0F2744"
+        stroke="#1E3A5F"
+        stroke-width="1"/>
+
+  <rect x="205"
+        y="205"
+        width="110"
+        height="5"
+        rx="2"
+        fill="#164E63"/>
+
+
+  <!-- ============================================ -->
+  <!-- CONNECTION LINE -->
+  <!-- ============================================ -->
+
+  <path d="M500 128 H920"
+        stroke="#164E63"
+        stroke-width="2"
+        stroke-dasharray="5 8"/>
+
+
+  <!-- MOVING DATA PARTICLE 1 -->
+
+  <circle r="5"
+          fill="#38BDF8"
+          filter="url(#glow)">
+
+    <animateMotion
+      dur="4s"
+      repeatCount="indefinite"
+      path="M500 128 H920"/>
+
+  </circle>
+
+
+  <!-- MOVING DATA PARTICLE 2 -->
+
+  <circle r="3"
+          fill="#22D3EE">
+
+    <animateMotion
+      dur="4s"
+      begin="2s"
+      repeatCount="indefinite"
+      path="M500 128 H920"/>
+
+  </circle>
+
+
+  <!-- ============================================ -->
+  <!-- WORKFLOW NODES -->
+  <!-- ============================================ -->
+
+
+  <!-- CODE NODE -->
+
+  <circle cx="555"
+          cy="128"
+          r="28"
+          fill="#07152F"
+          stroke="#2563EB"
+          stroke-width="2">
+
+    <animate attributeName="stroke-width"
+             values="2;4;2"
+             dur="4s"
+             begin="0s"
+             repeatCount="indefinite"/>
+
+  </circle>
+
+  <text x="555"
+        y="132"
+        text-anchor="middle"
+        class="label">
+    CODE
+  </text>
+
+
+  <!-- BUILD NODE -->
+
+  <circle cx="665"
+          cy="128"
+          r="28"
+          fill="#07152F"
+          stroke="#0284C7"
+          stroke-width="2">
+
+    <animate attributeName="stroke-width"
+             values="2;4;2"
+             dur="4s"
+             begin="1s"
+             repeatCount="indefinite"/>
+
+  </circle>
+
+  <text x="665"
+        y="132"
+        text-anchor="middle"
+        class="label">
+    BUILD
+  </text>
+
+
+  <!-- TEST NODE -->
+
+  <circle cx="775"
+          cy="128"
+          r="28"
+          fill="#07152F"
+          stroke="#0891B2"
+          stroke-width="2">
+
+    <animate attributeName="stroke-width"
+             values="2;4;2"
+             dur="4s"
+             begin="2s"
+             repeatCount="indefinite"/>
+
+  </circle>
+
+  <text x="775"
+        y="132"
+        text-anchor="middle"
+        class="label">
+    TEST
+  </text>
+
+
+  <!-- DEPLOY NODE -->
+
+  <circle cx="885"
+          cy="128"
+          r="28"
+          fill="#07152F"
+          stroke="#22D3EE"
+          stroke-width="2">
+
+    <animate attributeName="stroke-width"
+             values="2;4;2"
+             dur="4s"
+             begin="3s"
+             repeatCount="indefinite"/>
+
+  </circle>
+
+  <text x="885"
+        y="132"
+        text-anchor="middle"
+        class="label">
+    DEPLOY
+  </text>
+
+
+  <!-- ============================================ -->
+  <!-- STATUS -->
+  <!-- ============================================ -->
+
+  <text x="720"
+        y="190"
+        text-anchor="middle"
+        class="status">
+
+    ● SYSTEM READY
+
+    <animate attributeName="opacity"
+             values="0.4;1;0.4"
+             dur="2s"
+             repeatCount="indefinite"/>
+
+  </text>
+
+
+  <text x="720"
+        y="212"
+        text-anchor="middle"
+        class="label">
+
+    TURNING IDEAS INTO SOFTWARE
+
+  </text>
+
+
+  <!-- ============================================ -->
+  <!-- BOTTOM ANIMATED LINE -->
+  <!-- ============================================ -->
+
+  <rect x="100"
+        y="242"
+        width="800"
+        height="1"
+        fill="#164E63"/>
+
+  <rect x="100"
+        y="241"
+        width="120"
+        height="2"
+        rx="1"
+        fill="url(#flow)"
+        filter="url(#glow)">
+
+    <animate attributeName="x"
+             values="100;780;100"
+             dur="6s"
+             repeatCount="indefinite"/>
+
+  </rect>
+
+</svg>
