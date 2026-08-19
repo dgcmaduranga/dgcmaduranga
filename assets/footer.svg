@@ -1,0 +1,282 @@
+<svg width="1000" height="190" viewBox="0 0 1000 190"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+
+    <!-- BACKGROUND -->
+    <linearGradient id="footerBg" x1="0" y1="0" x2="1000" y2="190">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="50%" stop-color="#07152F"/>
+      <stop offset="100%" stop-color="#082F49"/>
+    </linearGradient>
+
+    <!-- ACCENT -->
+    <linearGradient id="accent" x1="200" y1="0" x2="800" y2="0">
+      <stop offset="0%" stop-color="#2563EB"/>
+      <stop offset="50%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#22D3EE"/>
+    </linearGradient>
+
+    <!-- GLOW -->
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <style>
+
+      .mainText {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 21px;
+        font-weight: 700;
+        letter-spacing: 4px;
+        fill: #F8FAFC;
+      }
+
+      .name {
+        font-family: "Courier New", monospace;
+        font-size: 13px;
+        font-weight: 600;
+        letter-spacing: 4px;
+        fill: #38BDF8;
+      }
+
+      .small {
+        font-family: "Courier New", monospace;
+        font-size: 10px;
+        letter-spacing: 3px;
+        fill: #64748B;
+      }
+
+    </style>
+
+  </defs>
+
+
+  <!-- ======================================= -->
+  <!-- BACKGROUND -->
+  <!-- ======================================= -->
+
+  <rect width="1000"
+        height="190"
+        rx="18"
+        fill="url(#footerBg)"/>
+
+
+  <!-- ======================================= -->
+  <!-- BACKGROUND GLOWS -->
+  <!-- ======================================= -->
+
+  <circle cx="70"
+          cy="160"
+          r="120"
+          fill="#2563EB"
+          opacity="0.07">
+
+    <animate
+      attributeName="opacity"
+      values="0.04;0.12;0.04"
+      dur="5s"
+      repeatCount="indefinite"/>
+
+  </circle>
+
+
+  <circle cx="930"
+          cy="30"
+          r="130"
+          fill="#06B6D4"
+          opacity="0.07">
+
+    <animate
+      attributeName="opacity"
+      values="0.04;0.11;0.04"
+      dur="6s"
+      repeatCount="indefinite"/>
+
+  </circle>
+
+
+  <!-- ======================================= -->
+  <!-- TOP ANIMATED LINE -->
+  <!-- ======================================= -->
+
+  <rect x="150"
+        y="25"
+        width="700"
+        height="1"
+        fill="#164E63"/>
+
+  <rect x="150"
+        y="24"
+        width="120"
+        height="3"
+        rx="2"
+        fill="url(#accent)"
+        filter="url(#glow)">
+
+    <animate
+      attributeName="x"
+      values="150;730;150"
+      dur="6s"
+      repeatCount="indefinite"/>
+
+  </rect>
+
+
+  <!-- ======================================= -->
+  <!-- CODE SYMBOL -->
+  <!-- ======================================= -->
+
+  <text x="500"
+        y="67"
+        text-anchor="middle"
+        font-family="Courier New, monospace"
+        font-size="22"
+        font-weight="700"
+        fill="#22D3EE"
+        filter="url(#glow)">
+
+    &lt;/&gt;
+
+    <animate
+      attributeName="opacity"
+      values="0.45;1;0.45"
+      dur="2.5s"
+      repeatCount="indefinite"/>
+
+  </text>
+
+
+  <!-- ======================================= -->
+  <!-- MAIN TEXT -->
+  <!-- ======================================= -->
+
+  <text x="500"
+        y="105"
+        text-anchor="middle"
+        class="mainText">
+
+    BUILDING IDEAS INTO SOFTWARE
+
+  </text>
+
+
+  <!-- ======================================= -->
+  <!-- NAME -->
+  <!-- ======================================= -->
+
+  <text x="500"
+        y="135"
+        text-anchor="middle"
+        class="name">
+
+    CHARITH GAMAGE
+
+  </text>
+
+
+  <!-- ======================================= -->
+  <!-- STATUS DOT -->
+  <!-- ======================================= -->
+
+  <circle cx="418"
+          cy="158"
+          r="3.5"
+          fill="#22D3EE"
+          filter="url(#glow)">
+
+    <animate
+      attributeName="opacity"
+      values="0.3;1;0.3"
+      dur="1.6s"
+      repeatCount="indefinite"/>
+
+  </circle>
+
+
+  <text x="430"
+        y="162"
+        class="small">
+
+    ALWAYS LEARNING • ALWAYS BUILDING
+
+  </text>
+
+
+  <!-- ======================================= -->
+  <!-- MOVING PARTICLES -->
+  <!-- ======================================= -->
+
+  <circle r="2.5"
+          fill="#38BDF8"
+          opacity="0.7">
+
+    <animateMotion
+      dur="8s"
+      repeatCount="indefinite"
+      path="M50 175 C250 145 380 185 520 165 S800 145 950 175"/>
+
+  </circle>
+
+
+  <circle r="2"
+          fill="#22D3EE"
+          opacity="0.5">
+
+    <animateMotion
+      dur="10s"
+      begin="2s"
+      repeatCount="indefinite"
+      path="M950 180 C750 150 600 185 450 170 S200 150 50 180"/>
+
+  </circle>
+
+
+  <!-- ======================================= -->
+  <!-- BOTTOM WAVES -->
+  <!-- ======================================= -->
+
+  <path
+    d="M0 175 Q170 150 340 174 T680 170 T1000 174"
+    fill="none"
+    stroke="#2563EB"
+    stroke-width="1"
+    opacity="0.25">
+
+    <animate
+      attributeName="d"
+      dur="8s"
+      repeatCount="indefinite"
+      values="
+        M0 175 Q170 150 340 174 T680 170 T1000 174;
+        M0 170 Q170 188 340 165 T680 180 T1000 168;
+        M0 175 Q170 150 340 174 T680 170 T1000 174
+      "/>
+
+  </path>
+
+
+  <path
+    d="M0 183 Q220 165 420 181 T750 178 T1000 182"
+    fill="none"
+    stroke="#22D3EE"
+    stroke-width="1"
+    opacity="0.18">
+
+    <animate
+      attributeName="d"
+      dur="10s"
+      repeatCount="indefinite"
+      values="
+        M0 183 Q220 165 420 181 T750 178 T1000 182;
+        M0 178 Q220 190 420 175 T750 188 T1000 176;
+        M0 183 Q220 165 420 181 T750 178 T1000 182
+      "/>
+
+  </path>
+
+</svg>
