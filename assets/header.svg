@@ -2,28 +2,12 @@
      xmlns="http://www.w3.org/2000/svg">
 
   <defs>
-    <!-- Premium dark background -->
+
     <linearGradient id="background" x1="0" y1="0" x2="1000" y2="300">
       <stop offset="0%" stop-color="#020617"/>
       <stop offset="45%" stop-color="#07152F"/>
       <stop offset="100%" stop-color="#082F49"/>
     </linearGradient>
-
-    <!-- Accent gradient -->
-    <linearGradient id="accent" x1="250" y1="0" x2="750" y2="0">
-      <stop offset="0%" stop-color="#2563EB"/>
-      <stop offset="50%" stop-color="#38BDF8"/>
-      <stop offset="100%" stop-color="#22D3EE"/>
-    </linearGradient>
-
-    <!-- Glow -->
-    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="5" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
 
     <style>
       .name {
@@ -48,35 +32,186 @@
         fill: #94A3B8;
       }
     </style>
+
+
+    <!-- FULL STACK -->
+    <clipPath id="clip1">
+      <rect x="365" y="150" width="0" height="50">
+
+        <animate
+          id="type1"
+          attributeName="width"
+          from="0"
+          to="275"
+          dur="1.8s"
+          begin="0s;restart.end"
+          fill="freeze"/>
+
+        <animate
+          id="delete1"
+          attributeName="width"
+          from="275"
+          to="0"
+          dur="1.3s"
+          begin="type1.end+1.2s"
+          fill="freeze"/>
+
+      </rect>
+    </clipPath>
+
+
+    <!-- MOBILE -->
+    <clipPath id="clip2">
+      <rect x="355" y="150" width="0" height="50">
+
+        <animate
+          id="type2"
+          attributeName="width"
+          from="0"
+          to="290"
+          dur="1.8s"
+          begin="delete1.end+0.3s"
+          fill="freeze"/>
+
+        <animate
+          id="delete2"
+          attributeName="width"
+          from="290"
+          to="0"
+          dur="1.3s"
+          begin="type2.end+1.2s"
+          fill="freeze"/>
+
+      </rect>
+    </clipPath>
+
+
+    <!-- AI ML -->
+    <clipPath id="clip3">
+      <rect x="395" y="150" width="0" height="50">
+
+        <animate
+          id="type3"
+          attributeName="width"
+          from="0"
+          to="210"
+          dur="1.5s"
+          begin="delete2.end+0.3s"
+          fill="freeze"/>
+
+        <animate
+          id="delete3"
+          attributeName="width"
+          from="210"
+          to="0"
+          dur="1.1s"
+          begin="type3.end+1.2s"
+          fill="freeze"/>
+
+      </rect>
+    </clipPath>
+
+
+    <!-- SYSTEMS -->
+    <clipPath id="clip4">
+      <rect x="380" y="150" width="0" height="50">
+
+        <animate
+          id="type4"
+          attributeName="width"
+          from="0"
+          to="240"
+          dur="1.6s"
+          begin="delete3.end+0.3s"
+          fill="freeze"/>
+
+        <animate
+          id="delete4"
+          attributeName="width"
+          from="240"
+          to="0"
+          dur="1.2s"
+          begin="type4.end+1.2s"
+          fill="freeze"/>
+
+      </rect>
+    </clipPath>
+
+
+    <!-- DEVOPS -->
+    <clipPath id="clip5">
+      <rect x="390" y="150" width="0" height="50">
+
+        <animate
+          id="type5"
+          attributeName="width"
+          from="0"
+          to="220"
+          dur="1.5s"
+          begin="delete4.end+0.3s"
+          fill="freeze"/>
+
+        <animate
+          id="delete5"
+          attributeName="width"
+          from="220"
+          to="0"
+          dur="1.1s"
+          begin="type5.end+1.2s"
+          fill="freeze"/>
+
+      </rect>
+    </clipPath>
+
   </defs>
 
 
   <!-- BACKGROUND -->
-  <rect width="1000" height="300" rx="18" fill="url(#background)"/>
+  <rect width="1000"
+        height="300"
+        rx="18"
+        fill="url(#background)"/>
 
 
-  <!-- DECORATIVE GLOWS -->
-  <circle cx="90" cy="55" r="115" fill="#2563EB" opacity="0.09">
-    <animate attributeName="opacity"
-             values="0.06;0.13;0.06"
-             dur="5s"
-             repeatCount="indefinite"/>
+  <!-- LEFT GLOW -->
+  <circle cx="90"
+          cy="55"
+          r="115"
+          fill="#2563EB"
+          opacity="0.09">
+
+    <animate
+      attributeName="opacity"
+      values="0.06;0.13;0.06"
+      dur="5s"
+      repeatCount="indefinite"/>
+
   </circle>
 
-  <circle cx="925" cy="250" r="145" fill="#06B6D4" opacity="0.08">
-    <animate attributeName="opacity"
-             values="0.05;0.12;0.05"
-             dur="6s"
-             repeatCount="indefinite"/>
+
+  <!-- RIGHT GLOW -->
+  <circle cx="925"
+          cy="250"
+          r="145"
+          fill="#06B6D4"
+          opacity="0.08">
+
+    <animate
+      attributeName="opacity"
+      values="0.05;0.12;0.05"
+      dur="6s"
+      repeatCount="indefinite"/>
+
   </circle>
 
 
-  <!-- TOP DETAILS -->
+  <!-- TOP DECORATION -->
   <circle cx="40" cy="32" r="4" fill="#38BDF8"/>
   <circle cx="56" cy="32" r="4" fill="#2563EB"/>
   <circle cx="72" cy="32" r="4" fill="#22D3EE"/>
 
-  <text x="92" y="37"
+  <text x="92"
+        y="37"
         font-family="Courier New, monospace"
         font-size="11"
         fill="#64748B"
@@ -86,131 +221,118 @@
 
 
   <!-- NAME -->
-  <text x="500" y="112"
+  <text x="500"
+        y="112"
         text-anchor="middle"
         class="name">
     CHARITH GAMAGE
   </text>
 
 
-  <!-- GLOW LINE -->
-  <rect x="315" y="132"
-        width="370" height="2"
-        rx="1"
-        fill="url(#accent)"
-        filter="url(#glow)"/>
+  <!-- FULL STACK -->
+  <text x="365"
+        y="180"
+        class="role"
+        clip-path="url(#clip1)">
+    Full-Stack Developer
+  </text>
 
 
-  <!-- =============================== -->
-  <!-- TYPEWRITER ROLE ANIMATION -->
-  <!-- =============================== -->
-
-  <g class="role" text-anchor="middle">
-
-    <!-- Full Stack -->
-    <text x="500" y="185">
-      Full-Stack Developer
-      <animate attributeName="opacity"
-               values="0;1;1;0;0"
-               keyTimes="0;0.03;0.15;0.19;1"
-               dur="20s"
-               repeatCount="indefinite"/>
-    </text>
-
-    <!-- Mobile -->
-    <text x="500" y="185" opacity="0">
-      Mobile App Developer
-      <animate attributeName="opacity"
-               values="0;0;1;1;0;0"
-               keyTimes="0;0.20;0.23;0.35;0.39;1"
-               dur="20s"
-               repeatCount="indefinite"/>
-    </text>
-
-    <!-- AI ML -->
-    <text x="500" y="185" opacity="0">
-      AI/ML Engineer
-      <animate attributeName="opacity"
-               values="0;0;1;1;0;0"
-               keyTimes="0;0.40;0.43;0.55;0.59;1"
-               dur="20s"
-               repeatCount="indefinite"/>
-    </text>
-
-    <!-- Systems -->
-    <text x="500" y="185" opacity="0">
-      Systems Engineer
-      <animate attributeName="opacity"
-               values="0;0;1;1;0;0"
-               keyTimes="0;0.60;0.63;0.75;0.79;1"
-               dur="20s"
-               repeatCount="indefinite"/>
-    </text>
-
-    <!-- DevOps -->
-    <text x="500" y="185" opacity="0">
-      DevOps Engineer
-      <animate attributeName="opacity"
-               values="0;0;1;1;0;0"
-               keyTimes="0;0.80;0.83;0.95;0.99;1"
-               dur="20s"
-               repeatCount="indefinite"/>
-    </text>
-
-  </g>
+  <!-- MOBILE -->
+  <text x="355"
+        y="180"
+        class="role"
+        clip-path="url(#clip2)">
+    Mobile App Developer
+  </text>
 
 
-  <!-- CURSOR -->
-  <rect x="500" y="198"
-        width="3" height="24"
-        rx="1"
-        fill="#22D3EE">
-
-    <animate attributeName="opacity"
-             values="1;0;1"
-             dur="0.8s"
-             repeatCount="indefinite"/>
-
-  </rect>
+  <!-- AI ML -->
+  <text x="395"
+        y="180"
+        class="role"
+        clip-path="url(#clip3)">
+    AI/ML Engineer
+  </text>
 
 
-  <!-- BOTTOM TAGLINE -->
-  <text x="500" y="248"
+  <!-- SYSTEMS -->
+  <text x="380"
+        y="180"
+        class="role"
+        clip-path="url(#clip4)">
+    Systems Engineer
+  </text>
+
+
+  <!-- DEVOPS -->
+  <text x="390"
+        y="180"
+        class="role"
+        clip-path="url(#clip5)">
+    DevOps Engineer
+  </text>
+
+
+  <!-- TAGLINE -->
+  <text x="500"
+        y="235"
         text-anchor="middle"
         class="small">
     BUILD • LEARN • ENGINEER • INNOVATE
   </text>
 
 
-  <!-- ANIMATED BOTTOM WAVES -->
-  <path d="M0 273 Q180 245 350 272 T700 265 T1000 270"
-        fill="none"
-        stroke="#2563EB"
-        stroke-width="1.5"
-        opacity="0.45">
+  <!-- BOTTOM WAVE 1 -->
+  <path
+    d="M0 273 Q180 245 350 272 T700 265 T1000 270"
+    fill="none"
+    stroke="#2563EB"
+    stroke-width="1.5"
+    opacity="0.45">
 
-    <animate attributeName="d"
-             dur="7s"
-             repeatCount="indefinite"
-             values="
-             M0 273 Q180 245 350 272 T700 265 T1000 270;
-             M0 265 Q180 285 350 260 T700 275 T1000 260;
-             M0 273 Q180 245 350 272 T700 265 T1000 270"/>
+    <animate
+      attributeName="d"
+      dur="7s"
+      repeatCount="indefinite"
+      values="
+      M0 273 Q180 245 350 272 T700 265 T1000 270;
+      M0 265 Q180 285 350 260 T700 275 T1000 260;
+      M0 273 Q180 245 350 272 T700 265 T1000 270"/>
+
   </path>
 
-  <path d="M0 283 Q220 260 420 280 T760 275 T1000 280"
-        fill="none"
-        stroke="#22D3EE"
-        stroke-width="1"
-        opacity="0.28">
 
-    <animate attributeName="d"
-             dur="9s"
-             repeatCount="indefinite"
-             values="
-             M0 283 Q220 260 420 280 T760 275 T1000 280;
-             M0 278 Q220 295 420 270 T760 288 T1000 270;
-             M0 283 Q220 260 420 280 T760 275 T1000 280"/>
+  <!-- BOTTOM WAVE 2 -->
+  <path
+    d="M0 283 Q220 260 420 280 T760 275 T1000 280"
+    fill="none"
+    stroke="#22D3EE"
+    stroke-width="1"
+    opacity="0.28">
+
+    <animate
+      attributeName="d"
+      dur="9s"
+      repeatCount="indefinite"
+      values="
+      M0 283 Q220 260 420 280 T760 275 T1000 280;
+      M0 278 Q220 295 420 270 T760 288 T1000 270;
+      M0 283 Q220 260 420 280 T760 275 T1000 280"/>
+
   </path>
+
+
+  <!-- RESTART TIMER -->
+  <rect width="0" height="0">
+    <animate
+      id="restart"
+      attributeName="width"
+      from="0"
+      to="0"
+      dur="0.4s"
+      begin="delete5.end"
+      fill="freeze"/>
+  </rect>
 
 </svg>
