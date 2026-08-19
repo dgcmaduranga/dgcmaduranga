@@ -1,44 +1,77 @@
-<!-- ========================= -->
-<!--        PROFILE HEADER     -->
-<!-- ========================= -->
 
 <p align="center">
   <img src="assets/header.svg" width="100%" alt="Charith Gamage Developer Profile"/>
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=dgcmaduranga&label=Profile%20Views&color=0e75b6&style=flat-square" alt="Profile Views"/>
+  <img src="https://komarev.com/ghpvc/?username=dgcmaduranga&label=Profile%20Views&color=0ea5e9&style=for-the-badge" alt="Profile Views"/>
 </p>
 
 ---
 
 ## 👨‍💻 About Me
 
-🎓 BSc (Hons) Computer Science Undergraduate  
-💻 Passionate about Full-Stack Web Development  
-📱 Interested in Mobile Application Development  
-🤖 Exploring Artificial Intelligence & Machine Learning  
-⚙️ Interested in Systems Engineering & DevOps  
-🚀 Focused on building practical solutions for real-world problems  
-📍 Sri Lanka  
+```typescript
+const charith = {
+  education: "BSc (Hons) Computer Science Undergraduate",
+  focus: [
+    "Full-Stack Development",
+    "Mobile Application Development",
+    "Artificial Intelligence & Machine Learning",
+    "Systems Engineering"
+  ],
+  mindset: "Build • Learn • Engineer • Innovate",
+  location: "Sri Lanka"
+};
+```
+
+I am a **Computer Science undergraduate** passionate about designing and building modern, practical, and scalable software solutions.
+
+My interests span **Full-Stack Web Development, Mobile Application Development, Artificial Intelligence & Machine Learning, and Systems Engineering**.
+
+I enjoy exploring new technologies, solving technical problems, and continuously improving my software engineering knowledge and development skills.
 
 ---
 
-## 🌐 Connect with Me
+## 🌐 Connect With Me
 
-<p align="left">
+<p align="center">
 
-<a href="https://www.linkedin.com/in/charith-gamage-04b315339/" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-Charith%20Gamage-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+<a href="https://www.linkedin.com/in/charith-gamage-04b315339/">
+  <img src="https://img.shields.io/badge/LinkedIn-Charith%20Gamage-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
 
 <a href="mailto:charithgamage19@gmail.com">
-  <img src="https://img.shields.io/badge/Gmail-Contact%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+  <img src="https://img.shields.io/badge/Gmail-Contact%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
 </a>
 
 <a href="https://github.com/dgcmaduranga">
-  <img src="https://img.shields.io/badge/GitHub-dgcmaduranga-181717?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub-dgcmaduranga-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
+
+</p>
+
+---
+
+## 🛠️ Skills & Technologies
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,vite,tailwind,nodejs,express,python,flask,fastapi,flutter,dart,firebase,mongodb,mysql,tensorflow,git,github,docker,vscode,postman,figma&perline=12" alt="Skills and Technologies"/>
+</p>
+
+---
+
+## 🎯 Development Focus
+
+<p align="center">
+
+<img src="https://img.shields.io/badge/Full--Stack%20Development-2563EB?style=for-the-badge&logo=react&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/Mobile%20Development-0284C7?style=for-the-badge&logo=flutter&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/AI%20%26%20Machine%20Learning-0891B2?style=for-the-badge&logo=tensorflow&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/Systems%20Engineering-0369A1?style=for-the-badge&logo=linux&logoColor=white"/>
 
 </p>
 
@@ -48,20 +81,9 @@
 
 <p align="center">
   <img
-    src="https://github-readme-activity-graph.vercel.app/graph?username=dgcmaduranga&bg_color=020617&color=38BDF8&line=2563EB&point=22D3EE&area=true&hide_border=true"
+    src="https://github-readme-activity-graph.vercel.app/graph?username=dgcmaduranga&bg_color=020617&color=38BDF8&line=2563EB&point=22D3EE&area=true&area_color=082F49&hide_border=true&custom_title=Charith%20Gamage's%20Contribution%20Graph"
     width="100%"
     alt="GitHub Activity Graph"
-  />
-</p>
-
----
-
-## 🛠️ Skills & Technologies
-
-<p align="center">
-  <img
-    src="https://skillicons.dev/icons?i=html,css,js,ts,react,vite,tailwind,nodejs,express,python,flask,fastapi,flutter,dart,firebase,mongodb,mysql,tensorflow,git,github,docker,vscode,postman,figma"
-    alt="Skills and Technologies"
   />
 </p>
 
@@ -71,57 +93,63 @@
 
 <p align="center">
 
-  <img
-    height="175"
-    src="https://github-readme-stats.vercel.app/api?username=dgcmaduranga&show_icons=true&theme=transparent&hide_border=true&title_color=38BDF8&text_color=C9D1D9&icon_color=22D3EE"
-    alt="Charith's GitHub Stats"
-  />
+<img
+  width="49%"
+  src="https://github-readme-stats.vercel.app/api?username=dgcmaduranga&show_icons=true&hide_border=true&bg_color=020617&title_color=38BDF8&text_color=CBD5E1&icon_color=22D3EE&ring_color=2563EB"
+  alt="Charith Gamage GitHub Stats"
+/>
 
-  <img
-    height="175"
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=dgcmaduranga&layout=compact&theme=transparent&hide_border=true&title_color=38BDF8&text_color=C9D1D9"
-    alt="Most Used Languages"
-  />
+<img
+  width="49%"
+  src="https://github-readme-stats.vercel.app/api/top-langs/?username=dgcmaduranga&layout=compact&hide_border=true&bg_color=020617&title_color=38BDF8&text_color=CBD5E1"
+  alt="Most Used Languages"
+/>
 
 </p>
 
 ---
 
-## 🔥 Development Streak
+## 🔥 Coding Streak
 
 <p align="center">
   <img
-    src="https://streak-stats.demolab.com?user=dgcmaduranga&theme=transparent&hide_border=true&ring=38BDF8&fire=22D3EE&currStreakLabel=38BDF8"
+    src="https://streak-stats.demolab.com?user=dgcmaduranga&hide_border=true&background=020617&ring=38BDF8&fire=22D3EE&currStreakLabel=38BDF8&sideLabels=CBD5E1&dates=64748B&currStreakNum=F8FAFC&sideNums=F8FAFC"
     alt="GitHub Streak"
   />
 </p>
 
 ---
 
-## 💻 Development Focus
+## 🚀 Engineering Journey
 
 <p align="center">
 
-  <img src="https://img.shields.io/badge/Full--Stack%20Development-2563EB?style=for-the-badge&logo=code&logoColor=white" />
+<img src="https://img.shields.io/badge/BUILD-Software-2563EB?style=for-the-badge"/>
 
-  <img src="https://img.shields.io/badge/Mobile%20Development-0284C7?style=for-the-badge&logo=flutter&logoColor=white" />
+<img src="https://img.shields.io/badge/LEARN-Continuously-0284C7?style=for-the-badge"/>
 
-  <img src="https://img.shields.io/badge/AI%20%2F%20ML-0891B2?style=for-the-badge&logo=tensorflow&logoColor=white" />
+<img src="https://img.shields.io/badge/ENGINEER-Solutions-0891B2?style=for-the-badge"/>
 
-  <img src="https://img.shields.io/badge/Systems%20Engineering-0369A1?style=for-the-badge&logo=linux&logoColor=white" />
+<img src="https://img.shields.io/badge/INNOVATE-Future-0E7490?style=for-the-badge"/>
 
-  <img src="https://img.shields.io/badge/DevOps-0E7490?style=for-the-badge&logo=docker&logoColor=white" />
+</p>
 
+<br>
+
+<p align="center">
+  <code>while (learning) { build(); improve(); innovate(); }</code>
 </p>
 
 ---
 
-<div align="center">
+<p align="center">
+  <b>Building ideas into software, one commit at a time.</b>
+</p>
 
-### `> Building. Learning. Engineering. Innovating.`
-
-<br>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:020617,50:0B3B66,100:0891B2" width="100%"/>
-
-</div>
+<p align="center">
+  <img
+    src="https://capsule-render.vercel.app/api?type=waving&height=130&section=footer&color=0:020617,45:075985,100:0891B2"
+    width="100%"
+    alt="Footer"
+  />
+</p>
