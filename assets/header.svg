@@ -152,36 +152,7 @@
     </clipPath>
 
 
-    <!-- ========================================== -->
-    <!-- 5. SYSTEMS ENGINEER -->
-    <!-- ========================================== -->
-
-    <clipPath id="clip5">
-      <rect x="370" y="150" width="0" height="50">
-
-        <animate
-          id="type5"
-          attributeName="width"
-          from="0"
-          to="260"
-          dur="1.6s"
-          begin="delete4.end+0.3s"
-          fill="freeze"/>
-
-        <animate
-          id="delete5"
-          attributeName="width"
-          from="260"
-          to="0"
-          dur="1.2s"
-          begin="type5.end+1.3s"
-          fill="freeze"/>
-
-      </rect>
-    </clipPath>
-
-  </defs>
-
+   
 
   <!-- ========================================== -->
   <!-- BACKGROUND -->
