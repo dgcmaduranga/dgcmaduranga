@@ -23,10 +23,9 @@ const charith = {
   education: "BSc (Hons) Computer Science Undergraduate",
 
   interests: [
-    "Software Engineer
     "Full-Stack Development",
     "Mobile Application Development",
-    "Artificial Intelligence & Machine Learning",
+    "Artificial Intelligence & Machine Learning"
   ],
 
   mindset: "Build • Learn • Engineer • Innovate",
@@ -37,7 +36,7 @@ const charith = {
 
 I am a **BSc (Hons) Computer Science undergraduate** with hands-on experience in building modern software applications and AI/ML-powered solutions.
 
-My technical interests span **Software Engineering, Full-Stack Web Development, Mobile Application Development, Artificial Intelligence & Machine Learning, and Systems Engineering**.
+My technical interests span **Full-Stack Web Development, Mobile Application Development, Artificial Intelligence & Machine Learning, and Systems Engineering**.
 
 I enjoy designing practical software solutions, developing REST APIs, working with databases and cloud technologies, exploring intelligent systems, and continuously improving my software engineering knowledge.
 
@@ -94,8 +93,6 @@ I enjoy designing practical software solutions, developing REST APIs, working wi
 
 <p align="center">
 
-<img src="https://img.shields.io/badge/Software%20Engineering-1D4ED8?style=for-the-badge&logo=github&logoColor=white" alt="Software Engineering"/>
-
 <img src="https://img.shields.io/badge/Full--Stack%20Development-2563EB?style=for-the-badge&logo=react&logoColor=white" alt="Full Stack Development"/>
 
 <img src="https://img.shields.io/badge/Mobile%20Development-0284C7?style=for-the-badge&logo=flutter&logoColor=white" alt="Mobile Development"/>
@@ -114,8 +111,7 @@ I enjoy designing practical software solutions, developing REST APIs, working wi
 
 ## 🚀 Current Focus
 
-- 💻 Building modern, responsive, and scalable software applications
-- 🌐 Developing full-stack web applications
+- 💻 Building modern, responsive, and scalable full-stack applications
 - 📱 Developing cross-platform mobile applications
 - 🤖 Exploring Artificial Intelligence & Machine Learning
 - ⚙️ Expanding knowledge in systems and software architecture
