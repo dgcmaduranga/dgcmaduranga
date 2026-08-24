@@ -23,11 +23,10 @@ const charith = {
   education: "BSc (Hons) Computer Science Undergraduate",
 
   interests: [
-    "Software Engineering",
+    "Software Engineer
     "Full-Stack Development",
     "Mobile Application Development",
     "Artificial Intelligence & Machine Learning",
-    "Systems Engineering"
   ],
 
   mindset: "Build • Learn • Engineer • Innovate",
